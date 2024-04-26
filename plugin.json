@@ -1,11 +1,11 @@
 {
-  "id": "template",
-  "name": "Plugin Template",
-  "description": "This is a template for Unifier plugins.",
+  "id": "watchtower",
+  "name": "WatchTower Integration",
+  "description": "A Unifier plugin to include Watchtower in it, reports Bans, Warns and moderating actions to Watchtower.",
   "version": "v1.0.0",
   "release": 0,
   "minimum": 36,
-  "requirements": [],
+  "requirements": ["requests"],
   "shutdown": false,
   "modules": [
     "template.py"
